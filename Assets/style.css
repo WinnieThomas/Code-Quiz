@@ -1,0 +1,71 @@
+header{
+    background-color: darkred;
+    color: white;
+    height:60px;
+    padding:10px;
+    margin: 10px;
+    border-radius:10px;
+
+}
+body{
+    background-color:bisque;
+    
+}
+/* Assigning properties for highscore and timer element*/
+header #highscore ,
+ header #timer
+ 
+ {
+    background-color: blueviolet;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    display: inline-block;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+/*Make Timer element float left*/
+header #timer{
+    float: right;
+    margin-right:30px;
+}
+
+/*Container for Welcome heading and button*/
+.start{
+    width:30%;
+    height:100%;
+    border:dotted;
+    margin:200px 200px 200px 450px;
+    position:relative;
+}
+
+
+ /*Properties for button element*/
+ .start #startQuiz{
+    background-color: red; 
+   font-size:20px;
+   border:3px solid green;
+   cursor: pointer;
+ }
+ 
+ .option{
+    border:solid;
+    background-color: beige;
+    cursor: pointer;
+ }
+
+ .option:hover{
+    transition: .5s;
+ }
+/*class hidden*/
+  .hidden{
+    display: none;
+  }
+  #quiz{
+    width:fit-content;
+    margin:100px auto 0;
+  }
+  #result{
+    width:fit-content;
+    margin:100px auto 0;
+  }
