@@ -69,3 +69,28 @@ header #timer{
     width:fit-content;
     margin:100px auto 0;
   }
+
+  header #backtoQuiz{
+    background-color: blueviolet;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    display: inline-block;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+#scoreSheet{
+    background-color: azure;
+    height: auto;
+    margin:200px auto;
+    width:200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+    .start{
+        width:50%;
+    }
+}
