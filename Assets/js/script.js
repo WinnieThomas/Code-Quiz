@@ -30,6 +30,49 @@ function StopGame(){
     summary.textContent = "Your score is"+ score;
 }
 
+//saves score to localstorage
+function SaveScore(e){
+    var initials=document.getElementById("initials").value;
+    if(initials!==""){
+        localStorage.setItem(initials,score);
+        document.getElementById("initials").value = "";
+    }
+
+}
+function displayScore(e){
+    window.location.href='score.html';
+}
+
+// when user selects the answer
+function onSelectAnswer(e){
+    var correctAnswer=questions[currentQuestion].answer;
+    var userOption=e.target.textContent;
+    if(correctAnswer===userOption){
+        score++;
+        displayMessage("Correct");
+        
+    }else{
+        score--;
+        displayMessage("Wrong");
+    }
+    currentQuestion++;
+    if(currentQuestion===questions.length){
+        StopGame();
+       console.log("end game");
+    }else{
+        displayQuestions();
+    }
+    
+}
+//display correct or wrong
+function displayMessage(msg){
+    comment.textContent=msg;
+    //set timer for the displaymessage function
+    setTimeout(function(){
+        comment.textContent='';
+    },1000);
+}
+
 
 // to display questions
 
