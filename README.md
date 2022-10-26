@@ -26,5 +26,5 @@ THEN I can save my initials and my score
 
 Screenshots of the website
 
-[!Image1](https://github.com/WinnieThomas/Code-Quiz/blob/main/Assets/Code1.png?raw=true)
+![Image1](https://github.com/WinnieThomas/Code-Quiz/blob/main/Assets/Code1.png?raw=true)
 
