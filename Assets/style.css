@@ -73,6 +73,7 @@ header #timer{
   header #backtoQuiz{
     background-color: blueviolet;
     font-size: 30px;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
     display: inline-block;
     padding-top: 10px;
