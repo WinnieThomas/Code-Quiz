@@ -3,15 +3,15 @@
 
 ## User Story
 
-```
+
 AS A candidate seeking a job
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT the company can asses my skills compared to other candidates.
-```
+
 
 ## Acceptance Criteria
 
-```
+
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -33,4 +33,5 @@ THEN I can save my initials and my score
 ![Screenshot3](https://github.com/WinnieThomas/Code-Quiz/blob/main/Assets/Code3.png?raw=true)
 
 ##Link to the deployed application
+
 https://winniethomas.github.io/Code-Quiz/
