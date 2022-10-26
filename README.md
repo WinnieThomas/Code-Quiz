@@ -28,3 +28,4 @@ Screenshots of the website
 
 ![](https://github.com/WinnieThomas/Code-Quiz/blob/main/Assets/Code1.png?raw=true)
 
+![](https://github.com/WinnieThomas/Code-Quiz/blob/main/Assets/Code2.png?raw=true)
