@@ -1,5 +1,5 @@
-# Code-Quiz
-A quiz used to asses the coding skills of candidates seeking a partcular position in an IT company.
+## Code-Quiz
+#A quiz used to asses the coding skills of candidates seeking a partcular position in an IT company.
 
 ## User Story
 
@@ -26,7 +26,7 @@ THEN I can save my initials and my score
 
 # Screenshots of the website
 
-![Screenshot1](https://github.com/WinnieThomas/Code-Quiz/blob/main/Assets/Code1.png?)
+![Screenshot1](https://github.com/WinnieThomas/Code-Quiz/blob/main/Assets/Code1.png?raw=true)
 
 ![Screenshot2](https://github.com/WinnieThomas/Code-Quiz/blob/main/Assets/Code2.png?raw=true)
 
