@@ -36,5 +36,4 @@ THEN I can save my initials and my score
 ![Screenshot](https://github.com/WinnieThomas/Code-Quiz/blob/main/Assets/Code4.png?raw=true)
 
 ## Link to the deployed application
-
 https://winniethomas.github.io/Code-Quiz/
